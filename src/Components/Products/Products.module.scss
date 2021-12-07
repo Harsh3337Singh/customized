@@ -39,7 +39,8 @@
 }
 .mainImage {
   width: 85%;
-  height: 70vh;
+  min-width: 220px;
+  height: 70%;
   min-height: 320px;
   @media (max-width: 768px) {
     height: 40vh;
