@@ -27,6 +27,8 @@ export default class App extends Component {
   };
 
   render() {
+    const urlArray = window.location.href;
+    console.log(urlArray);
     return (
       <>
         <i onClick={this.sidebarHandler} className={`fa fa-outdent ${classes.sidebarLogo}`}></i>
