@@ -19,7 +19,7 @@ export default class Products extends Component {
   imageChanger = (index) => {
     this.setState({
       selectedImage: index,
-      showImage: require(`../../../public/Images/${product[this.state.productId].images[index]}`),
+      showImage: require(`../../data/Images/${product[this.state.productId].images[index]}`),
     });
   };
   componentDidMount = () => {
@@ -30,7 +30,7 @@ export default class Products extends Component {
       productId: productId,
       collectionId: collectionId,
       productImages: [...product[productId].images],
-      showImage: require(`../../../public/Images/${product[productId].images[0]}`),
+      showImage: require(`../../data/Images/${product[productId].images[0]}`),
       productName: product[productId].name,
       productDetails: product[productId].details,
     });
@@ -46,7 +46,7 @@ export default class Products extends Component {
               <div className={classes.moreImages}>
                 {this.state.productImages.map((img, index) => {
                   console.log(img[index]);
-                  const image = require(`../../../public/Images/${
+                  const image = require(`../../data/Images/${
                     product[this.state.productId].images[index]
                   }`);
                   return (

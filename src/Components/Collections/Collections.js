@@ -33,7 +33,7 @@ export default class Collections extends Component {
           <div className={classes.collectionName}>{this.state.collectionId}&nbsp;Collection</div>
           <div className={classes.collectionWrap}>
             {this.state.collectionNumbers.map((itemId) => {
-              const image = require(`../../../public/Images/${collections[itemId].images[0]}`);
+              const image = require(`../../data/Images/${collections[itemId].images[0]}`);
               return (
                 <Link className={classes.item} to={`/collections/${this.state.collectionId}/${itemId}`}>
                   <div className={classes.itemDiv}>
