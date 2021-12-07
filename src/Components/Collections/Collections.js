@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Header from "../Header/Header";
 import classes from "./Collections.module.scss";
 import collectionDetails from "../../data/collectionDetails.json";
-import collections from "../../data/collections.json";
 import { Link } from "react-router-dom";
+const collections = require("../../data/collections.json");;
 
 export default class Collections extends Component {
   constructor(props) {
@@ -37,7 +37,7 @@ export default class Collections extends Component {
               return (
                 <Link className={classes.item} to={`/collections/${this.state.collectionId}/${itemId}`}>
                   <div className={classes.itemDiv}>
-                    <img className={classes.itemImage} src={image} alt="" />
+                    <img className={classes.itemImage} src={image.default} alt="" />
                     <div className={classes.itemName}>{collections[itemId].name}</div>
                   </div>
                 </Link>

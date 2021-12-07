@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../Header/Header";
 import classes from "./Products.module.scss";
-import product from "../../data/collections.json";
+const product = require("../../data/collections.json");
 
 export default class Products extends Component {
   constructor(props) {
