@@ -1,0 +1,62 @@
+{
+  "1": {
+    "name": "Chak Frock With Salwar",
+    "details": "fabric emblishments style hjgc cvghcdg cdhdk xdhhkd jkbce ergih egd3ruh degiged ",
+    "images": [
+      "Collection1/img1.jpeg",
+      "Collection1/img2.jpeg",
+      "Collection1/img3.jpeg",
+      "Collection1/img4.jpeg",
+      "Collection1/img5.jpeg"
+    ]
+  },
+  "2": {
+    "name": "Anarkali With Salwar",
+    "details": "fabric emblishments vxhu style hjgc cvghcdg cdhdk xdhhkd jkbce ergih egd3ruh degiged ",
+    "images": [
+      "Collection2/img1.jpeg",
+      "Collection2/img2.jpeg",
+      "Collection2/img3.jpeg",
+      "Collection2/img4.jpeg",
+      "Collection2/img5.jpeg",
+      "Collection2/img6.jpeg"
+    ]
+  },
+  "3": {
+    "name": "Kids Suit",
+    "details": "fabric emblishments vxhu style hjgc cvghcdg cdhdk xdhhkd jkbce ergih egd3ruh degiged ",
+    "images": ["Kids/Collection1/img1.jpeg", "Kids/Collection1/img2.jpeg", "Kids/Collection1/img3.jpeg"]
+  },
+  "4": {
+    "name": "Kids Frock",
+    "details": "fabric emblishments vxhu style hjgc cvghcdg cdhdk xdhhkd jkbce ergih egd3ruh degiged ",
+    "images": ["Kids/Collection2/img1.jpeg", "Kids/Collection2/img2.jpeg", "Kids/Collection2/img3.jpeg"]
+  },
+  "5": {
+    "name": "Kids Kurta Pajama",
+    "details": "fabric emblishments vxhu style hjgc cvghcdg cdhdk xdhhkd jkbce ergih egd3ruh degiged ",
+    "images": ["Kids/Collection3/img1.jpeg", "Kids/Collection3/img2.jpeg", "Kids/Collection3/img3.jpeg"]
+  },
+  "6": {
+    "name": "Kids Suit",
+    "details": "fabric emblishments vxhu style hjgc cvghcdg cdhdk xdhhkd jkbce ergih egd3ruh degiged ",
+    "images": ["Kids/Collection4/img2.jpeg", "Kids/Collection4/img1.jpeg", "Kids/Collection4/img3.jpeg"]
+  },
+  "7": {
+    "name": "Suit abcd",
+    "details": "fabric emblishments vxhu style hjgc cvghcdg cdhdk xdhhkd jkbce ergih egd3ruh degiged ",
+    "images": [
+      "Collection3/img1.jpeg",
+      "Collection3/img2.jpeg",
+      "Collection3/img3.jpeg",
+      "Collection3/img4.jpeg",
+      "Collection3/img5.jpeg",
+      "Collection3/img6.jpeg"
+    ]
+  },
+  "8": {
+    "name": "Party Suit",
+    "details": "fabric emblishments vxhu style hjgc cvghcdg cdhdk xdhhkd jkbce ergih egd3ruh degiged ",
+    "images": ["Collection4/img1.jpeg", "Collection4/img2.jpeg", "Collection4/img3.jpeg"]
+  }
+}

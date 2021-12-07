@@ -1,0 +1,213 @@
+.bodyWrap {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+.logo {
+  width: 50%;
+  height: 100vh;
+  font-size: 4rem;
+  background-color: rgb(112, 75, 62);
+  color: #ebd1c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 50vh;
+    font-size: 3rem;
+  }
+}
+.sidebarLogo {
+  font-size: 30px;
+  color: #ebd1c3;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  transform: rotate(180deg);
+}
+.info {
+  width: 50%;
+  height: 100vh;
+  font-size: 4rem;
+  background-color: rgb(235, 209, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+.ocean {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  // height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Muli");
+$textDur: 1050ms;
+$waveDur: 2100ms;
+
+html,
+body {
+  font-size: 62.5%;
+  // background-color: #00091b;
+  font-family: "Indie Flower", cursive;
+  // font-family: "Muli", Helvetica, sans-serif;
+}
+
+.container {
+  position: absolute;
+  font-size: 15px;
+  // width: 17rem;
+  // height: 10rem;
+  top: -300px;
+  // left: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+.textLogoWrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  // height: 100%;
+  // margin-bottom: 30px;
+  // margin-right: 100px;
+}
+.textWrap {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.text {
+  // color: rgb(97, 91, 91);
+  // font-size: 4rem;
+  font-weight: 900;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  animation: text $textDur ease-in infinite;
+  transform: translatez(0);
+  animation-duration: 1.5s;
+  animation-iteration-count: 1.5;
+  // animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  &U {
+    animation-delay: 100ms;
+  }
+  &S {
+    animation-delay: 200ms;
+  }
+  &T {
+    animation-delay: 300ms;
+  }
+  &O {
+    animation-delay: 400ms;
+  }
+  &M {
+    animation-delay: 500ms;
+  }
+  &I {
+    animation-delay: 600ms;
+  }
+  &Z {
+    animation-delay: 700ms;
+  }
+  &E {
+    animation-delay: 800ms;
+  }
+  &D {
+    animation-delay: 900ms;
+  }
+  &s {
+    animation-delay: 1000ms;
+    @media (max-width: 768px) {
+      // top: 50px;
+      // left: -30px;
+    }
+  }
+  &u {
+    animation-delay: 1100ms;
+    @media (max-width: 768px) {
+      // top: 50px;
+      // left: -30px;
+    }
+  }
+  &i {
+    animation-delay: 1200ms;
+    @media (max-width: 768px) {
+      // top: 50px;
+      // left: -30px;
+    }
+  }
+  &t {
+    animation-delay: 1300ms;
+    @media (max-width: 768px) {
+      // top: 50px;
+      // left: -30px;
+    }
+  }
+  &ss {
+    animation-delay: 1400ms;
+    @media (max-width: 768px) {
+      // top: 50px;
+      // left: -30px;
+    }
+  }
+}
+@keyframes text {
+  0% {
+    transform: translate3d(0, 0rem, 0);
+  }
+  25% {
+    transform: translate3d(0, -1rem, 0);
+  }
+  50% {
+    transform: translate3d(0, 0rem, 0);
+  }
+  75% {
+    transform: translate3d(0, 1rem, 0);
+  }
+  // 100% {
+  //   transform: translate3d(0, 1rem, 0);
+  // }
+}
+
+@keyframes text-w {
+  0% {
+    transform: translate3d(0, -4rem, 0);
+  }
+  38% {
+    transform: translate3d(0, -4rem, 0);
+  }
+  69% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -4rem, 0);
+  }
+}

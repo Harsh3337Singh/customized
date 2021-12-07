@@ -1,0 +1,14 @@
+{
+  "Summer": {
+    "collections": [2, 7]
+  },
+  "Party": {
+    "collections": [1, 7, 8]
+  },
+  "Kids": {
+    "collections": [3, 4, 5, 6]
+  },
+  "Bandri": {
+    "collections": [1, 2, 8]
+  }
+}
